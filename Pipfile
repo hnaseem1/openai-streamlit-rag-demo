@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+chatbot = "streamlit run Chatbot.py"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+faiss-cpu = "*"
+langchain-openai = "*"
+streamlit = "*"
+pypdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
