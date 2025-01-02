@@ -58,7 +58,7 @@ The **Knowledge Base Assistant App** allows users to create knowledge bases by u
 
 ## Project Structure
 
-- **`app.py`**: Main entry point for the Streamlit app.
+- **`Chatbot.py`**: Main entry point for the Streamlit app.
 - **`loaders/indexer.py`**: Handles indexing of uploaded documents into the knowledge base.
 - **`main.py`**: Contains core functions such as handling prompts and getting responses from the OpenAI API.
 
