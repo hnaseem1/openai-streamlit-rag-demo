@@ -18,21 +18,23 @@ The **Knowledge Base Assistant App** allows users to create knowledge bases by u
   
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repo/knowledge-base-assistant.git
-    cd knowledge-base-assistant
-    ```
+1. Install Pipenv by running the following command:
 
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install pipenv --user
+   ```
 
-3. Run the app:
-    ```bash
-    streamlit run app.py
-    ```
+2. Install project dependencies:
+
+   ```bash
+   pipenv install
+   ```
+
+3. Run the chatbot:
+
+   ```bash
+   pipenv run chatbot
+   ```
 
 ## How to Use
 
